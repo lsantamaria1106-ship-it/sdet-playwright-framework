@@ -22,3 +22,7 @@ The goal is to demonstrate best practices for UI test automation, including reus
 ```bash
 git clone https://github.com/yourusername/sdet-playwright-framework.git
 cd sdet-playwright-framework
+
+**### 2. Install dependencies**
+```bash
+npm install
