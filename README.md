@@ -6,6 +6,7 @@ The goal is to demonstrate best practices for UI test automation, including reus
 ---
 
 ## ⚡ Features
+
 - Page Object Model (POM) design
 - Example login test case
 - Custom reporter integration
@@ -14,13 +15,14 @@ The goal is to demonstrate best practices for UI test automation, including reus
 ---
 
 ## 📂 Project Structure
+
 The project structure is as follows:
 
 sdet-playwright-framework/
- ┣ tests/
- ┃ ┗ login.test.js
- ┣ package.json
- ┣ README.md
+┣ tests/
+┃ ┗ login.test.js
+┣ package.json
+┣ README.md
 
 ---
 
@@ -58,3 +60,4 @@ test('User can log in with valid credentials', async ({ page }) => {
   await page.click('#login-button');
   await expect(page.locator('.inventory_list')).toBeVisible();
 });
+```

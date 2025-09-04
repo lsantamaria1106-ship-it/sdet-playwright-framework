@@ -1,0 +1,27 @@
+{
+  "name": "sdet-playwright-framework",
+  "version": "1.0.0",
+  "description": "This repository contains an **end-to-end test automation framework** built with **Playwright + TypeScript**.  \r The goal is to demonstrate best practices for UI test automation, including reusable code structure, reporting, and CI/CD integration.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lsantamaria1106-ship-it/sdet-playwright-framework.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/lsantamaria1106-ship-it/sdet-playwright-framework/issues"
+  },
+  "homepage": "https://github.com/lsantamaria1106-ship-it/sdet-playwright-framework#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "prettier": "^3.6.2"
+  }
+}
